@@ -187,5 +187,5 @@
             if (grid) {
                 observer.observe(grid);
                 grid.querySelectorAll('.project-card').forEach(card => observer.observe(card));
-            }
+            }   
         }
